@@ -8,6 +8,7 @@ import dash_bootstrap_components as dbc
 from dash import Dash
 
 app = Dash(__name__, external_stylesheets=[dbc.themes.SOLAR])
+server = app.server
 
 df = pd.read_csv('choco.csv')
 df['Amount'] = df['Amount'].replace('[$,]', '', regex=True)
@@ -175,4 +176,4 @@ def basicGraph(country, year_range):
 
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run()
