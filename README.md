@@ -2,6 +2,8 @@
 
 [🚀 **Live Dashboard / Dashboard en Vivo**](https://plotly-dash-chocolate-sales-2022-2024-production.up.railway.app/)
 
+[📊 **DataSet**](https://www.kaggle.com/datasets/saidaminsaidaxmadov/chocolate-sales)
+
 ---
 
 ## 🇺🇸 English Version
